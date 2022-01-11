@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "_site/assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - label: "Frontpage"
+    name: "frontpage"
+    folder: "src/_data/"
+    file: "src/_data/homepage.yaml"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "string" }
