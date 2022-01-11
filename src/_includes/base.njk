@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="/assets/css/topbar.css">
     <link rel="stylesheet" href="/assets/css/video.css">
     <link rel="stylesheet" href="/assets/css/why-us.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 
 <body>
@@ -34,7 +36,17 @@
     {% include 'header.njk' %}
      {{ content | safe }}
     {% include 'footer.njk' %}
-
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 
 </html>
