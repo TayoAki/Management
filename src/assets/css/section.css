@@ -1,0 +1,29 @@
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #1f487e;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+

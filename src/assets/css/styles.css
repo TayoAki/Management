@@ -1,0 +1,16 @@
+.topbar a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+}
+

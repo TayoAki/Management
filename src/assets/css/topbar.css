@@ -1,0 +1,38 @@
+#topbar {
+  background: #1f487e;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #fff;
+}
+
+#topbar .contact-info i:first-child {
+  margin-left: 0;
+}
+
+#topbar .contact-info a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+#topbar .contact-info i {
+  padding-right: 4px;
+  margin-left: 15px;
+}
+
+#topbar.topbar-scrolled {
+  top: -40px;
+}
+
+#header.header-scrolled {
+  top: 0;
+  padding: 15px;
+}
+
+@media (max-width: 992px) {
+  #header {
+    padding: 15px;
+    top: 0;
+  }
+}
+
