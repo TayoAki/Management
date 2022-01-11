@@ -1,15 +1,17 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: "_site/assets/img"
 public_folder: "/assets/img"
 
 collections:
-  - label: "Frontpage"
-    name: "frontpage"
-    folder: "src/_data/"
-    file: "src/_data/homepage.yaml"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "string" }
+  - label: "Index Page"
+    name: "Index Page"
+    files:
+      - label: "Left hand box"
+        name: "index"
+        file: "src/_data/homepage.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: content, widget: markdown}
