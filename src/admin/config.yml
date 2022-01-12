@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: test-repo
+  #name: git-gateway
   branch: main
 
 media_folder: "_site/assets/img"
@@ -43,7 +44,7 @@ collections:
             widget: "object"
             fields:
               - {label: Service 1, name: service1, widget: string}
-              - {label: Service 1 Description, name: service1_desc, widget: markdown}
+              - {label: Service 1 Description, name: body, widget: markdown}
               - {label: Service 2, name: service2, widget: string}
               - {label: Service 2 Description, name: service2_desc, widget: markdown}
               - {label: Service 3, name: service3, widget: string}

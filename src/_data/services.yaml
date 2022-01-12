@@ -5,6 +5,7 @@ intro:
 list:
   service1: Quality Management and Regulatory Compliance
   service1_desc: |-
+
     * Knowledgeable in ISO 9001:2015, COLA, ISO 17025
     * Create and Perform Laboratory Audits
     * Perform Facility and Safety Audits
@@ -12,12 +13,14 @@ list:
     * Corrective Action/Preventive Action (CAPA) Management
   service2: Laboratory Consulting
   service2_desc: |-
+
     * Perform Audits against Standards and ensure Regulatory Compliance
     * Implement Medical, Technical and Business Process Improvement
     * Perform Management and Staff Training and Development
     * Perform Patient Blood Management Consulting Services
   service3: Physician Medical Practice and POL Consulting
   service3_desc: |-
+  
     * Develop Medical Office operating policies and procedures
     * Assist in Medical Office management of Human Resource activities
     * Establish and maintain Medical Office Performance Management Metrics

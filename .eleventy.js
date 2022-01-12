@@ -2,6 +2,18 @@ module.exports = function(eleventyConfig) {
 
     const yaml = require("js-yaml");
 
+    let markdown = require("markdown-it")({
+      html: true
+    });
+    
+    module.exports = config => {
+      config.addNunjucksShortcode(
+        "markdown",
+        content => `<div class="md-block">${markdown.render(content)}</div>`
+      );
+    
+    };
+
     eleventyConfig.addDataExtension("yaml", (contents) =>
     yaml.load(contents)
     );
