@@ -11,6 +11,23 @@ list:
     * Create Quality Management System
     * Corrective Action/Preventive Action (CAPA) Management
   service2: Laboratory Consulting
-  service2_desc: testing2
+  service2_desc: |-
+    
+
+    * Perform Audits against Standards and ensure Regulatory Compliance
+    * Implement Medical, Technical and Business Process Improvement
+    * Perform Management and Staff Training and Development
+    * Perform Patient Blood Management Consulting Services
   service3: Physician Medical Practice and POL Consulting
-  service3_desc: testing3
+  service3_desc: |-
+    
+
+    * Develop Medical Office operating policies and procedures
+    * Assist in Medical Office management of Human Resource activities
+    * Establish and maintain Medical Office Performance Management Metrics
+    * Develop Infrastructure and Operations Processes and Systems
+    * Design and Implement Quality Management Systems 
+    * Develop Policies and Standard Operating Procedures
+    * Obtain COLA accreditation
+    * Support and Maintain COLA accreditation
+    * Provide COLA compliance training
