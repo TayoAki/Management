@@ -25,29 +25,19 @@ collections:
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Content, name: content, widget: markdown}
+              - {label: Content, name: content, widget: text}
               - {label: Button, name: button, widget: string}
 
-      - label: "Click Here To Change Your Services Page"
-        name: "services"
-        file: "src/_data/services.yaml"
-        fields:
-          - label: "title"
-            name: "intro"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Description, name: description, widget: string}
-          - label: "services"
-            name: "list"
-            widget: "object"
-            fields:
-              - {label: Service 1, name: service1, widget: string}
-              - {label: Service 1 Description, name: body, widget: markdown}
-              - {label: Service 2, name: service2, widget: string}
-              - {label: Service 2 Description, name: service2_desc, widget: markdown}
-              - {label: Service 3, name: service3, widget: string}
-              - {label: Service 3 Description, name: service3_desc, widget: markdown}
+      #- label: "Click Here To Change Your Services Page"
+      #  name: "services"
+      #  file: "src/_data/services.yaml"
+      #  fields:
+      #    - label: "title"
+      #      name: "intro"
+      #      widget: "object"
+      #      fields:
+      #        - {label: Title, name: title, widget: string}
+      #        - {label: Description, name: description, widget: string}
       - label: "Click Here To Change Your About Page"
         name: "edit_about"
         file: "src/_data/about.yaml"
@@ -62,13 +52,13 @@ collections:
             widget: "object"
             fields:
               - {label: Title, name: bigbox_title, widget: string}
-              - {label: Text, name: bigbox_text, widget: markdown}
+              - {label: Text, name: bigbox_text, widget: text}
           - label: "Bottom Box"
             name: "bottom"
             widget: "object"
             fields:
               - {label: Title, name: bottombox_title, widget: string}
-              - {label: Text, name: bottombox_text, widget: markdown}
+              - {label: Text, name: bottombox_text, widget: text}
       - label: "Click Here To Change Your Contact Page"
         name: "edit_contact"
         file: "src/_data/contact.yaml"
