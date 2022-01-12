@@ -1,17 +1,84 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: test-repo
 
 media_folder: "_site/assets/img"
 public_folder: "/assets/img"
 
 collections:
-  - label: "Index Page"
-    name: "Index Page"
+  - label: "Content Editor"
+    name: "edit_content"
     files:
-      - label: "Left hand box"
-        name: "index"
+      - label: "Click Here To Change Your Home Page"
+        name: "box1"
         file: "src/_data/homepage.yaml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Content, name: content, widget: markdown}
+          - label: "header"
+            name: "header"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button, name: button, widget: string}
+          - label: "Transparent Box"
+            name: "box"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+              - {label: Button, name: button, widget: string}
+
+      - label: "Click Here To Change Your Services Page"
+        name: "services"
+        file: "src/_data/services.yaml"
+        fields:
+          - label: "title"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string}
+          - label: "services"
+            name: "list"
+            widget: "object"
+            fields:
+              - {label: Service 1, name: service1, widget: string}
+              - {label: Service 1 Description, name: service1_desc, widget: markdown}
+              - {label: Service 2, name: service2, widget: string}
+              - {label: Service 2 Description, name: service2_desc, widget: markdown}
+              - {label: Service 3, name: service3, widget: string}
+              - {label: Service 3 Description, name: service3_desc, widget: markdown}
+      - label: "Click Here To Change Your About Page"
+        name: "edit_about"
+        file: "src/_data/about.yaml"
+        fields:          
+          - label: "title"
+            name: "main"
+            widget: "object"
+            fields:
+              - {label: Title, name: pagetitle, widget: string}
+          - label: "Big Box"
+            name: "bigbox"
+            widget: "object"
+            fields:
+              - {label: Title, name: bigbox_title, widget: string}
+              - {label: Text, name: bigbox_text, widget: markdown}
+          - label: "Bottom Box"
+            name: "bottom"
+            widget: "object"
+            fields:
+              - {label: Title, name: bottombox_title, widget: string}
+              - {label: Text, name: bottombox_text, widget: markdown}
+      - label: "Click Here To Change Your Contact Page"
+        name: "edit_contact"
+        file: "src/_data/contact.yaml"
+        fields:          
+          - label: "title"
+            name: "header"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+          - label: "Button Text"
+            name: "contact-button"
+            widget: "object"
+            fields:
+              - {label: Button Text, name: button_text, widget: string}

@@ -7,9 +7,9 @@ layout: "base.njk"
                 <source src="assets\video\Untitled.mp4" type="video/mp4">
             </video></div>
         <div class="container">
-            <h1>The Neal Management&nbsp;Group<br></h1>
-            <h2>Health Care Consultant Organization<br></h2>
-            <div class="d-flex align-items-center"><i class="fa fa-arrow-right bx bxs-right-arrow-alt get-started-icon"></i><a class="btn-get-started scrollto" href="/services/">Discover Our Services</a></div>
+            <h1> {{homepage.header.title}} &nbsp;Group<br></h1>
+            <h2> {{homepage.header.subtitle}} <br></h2>
+            <div class="d-flex align-items-center"><i class="fa fa-arrow-right bx bxs-right-arrow-alt get-started-icon"></i><a class="btn-get-started scrollto" href="/services/">{{homepage.header.button}}</a></div>
         </div>
     </section>
     <section id="why-us" class="why-us">
@@ -17,9 +17,9 @@ layout: "base.njk"
             <div class="row">
                 <div class="col-lg-5 col-xl-5">
                     <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="content">
-                        <h3> {{homepage.title}} </h3>
-                        <p> {{homepage.content}} <br></p>
-                        <div class="text-center"><a class="more-btn" href="/about/">Learn More About Us&nbsp;</a></div>
+                        <h3> {{homepage.box.title}} </h3>
+                        <p> {{homepage.box.content}} <br></p>
+                        <div class="text-center"><a class="more-btn" href="/about/"> {{ homepage.box.button }} &nbsp;</a></div>
                     </div>
                 </div>
                 <div class="col-lg-7 col-xl-9">

@@ -1,0 +1,14 @@
+---
+intro:
+  title: Our Services
+  description: The Neal Management group specializes in Regulatory Compliance, Operational Efficiency, and Laboratory Science
+
+list:
+  service1: Quality Management and Regulatory Compliance
+  service1_desc: testing
+
+  service2: Laboratory Consulting
+  service2_desc: testing2
+
+  service3: Physician Medical Practice and POL Consulting
+  service3_desc: testing3

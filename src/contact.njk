@@ -4,8 +4,8 @@ layout: "base.njk"
 ---
     <section id="contact" class="contact section-bg" style="margin-top: 100px;padding: 80px 0px;">
         <div class="section-title">
-            <h1 style="padding-top: 10px;">Contact Us For A Free Quote!</h1>
-            <p><strong>Want a free quote? ​Enter information about your project, and we'll respond within one business day!</strong><br><br></p>
+            <h1 style="padding-top: 10px;"> {{contact.header.title}} </h1>
+            <p><strong> {{contact.header.subtext}} </strong><br><br></p>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-xl-9">
@@ -23,7 +23,7 @@ layout: "base.njk"
                                                     </div>
                                                 </div>
                                                 <div class="form-group"><textarea class="form-control" name="message" required="" placeholder="Enter your message here" rows="6"></textarea></div>
-                                                <div class="text-center"><button class="btn contact-button" type="submit">Send Message</button></div>
+                                                <div class="text-center"><button class="btn contact-button" type="submit"> {{contact.button.button_text}} </button></div>
                                             </div>
                                         </div>
                                     </form>
